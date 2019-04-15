@@ -1,0 +1,119 @@
+body{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    color:#112233;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+}
+/*radio style by Mana https://codepen.io/manabox/*/
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #112233;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.app {
+    margin: 100px auto;
+    padding: 20px;
+    max-width: 70%;
+    -webkit-box-shadow: 2px 3px 10px -2px rgba(0,0,0,0.58);
+    -moz-box-shadow: 2px 3px 10px -2px rgba(0,0,0,0.58);
+    box-shadow: 2px 3px 10px -2px rgba(0,0,0,0.58);
+}
+
+.container {
+    background-color: #FFFFFF;
+/*    margin: 50px auto;*/
+    padding: 30px;
+    border: 3px solid grey;
+    max-width: 80%;
+    /*display: inline-block;*/
+}
+
+/*.clearfix::after {*/
+/*  content: "";*/
+/*  clear: both;*/
+/*  display: table;*/
+/*}*/
+
+.chord {
+    border: 3px solid #112233;
+    width: 20%;
+    /*float: left;*/
+    margin:10px;
+    text-align: center;
+    color: #666;
+}
+
+.chords {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+#head {
+    color: #DDFFFF;
+}
+
+#keyNotes {
+    color: #666;
+    font-size: 200%;
+}
+
+#radiogroup {
+    margin: 20px;
+}
+

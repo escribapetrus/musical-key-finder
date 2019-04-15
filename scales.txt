@@ -1,0 +1,43 @@
+Key of C
+C, D, E, F, G, A, B
+C, Dm, Em, F, G, Am, Bdim
+
+Key of C#
+C#, D#, F, F#, G#, A#, C
+C#, D#m, Fm, F#, G#, A#min, Cdim
+
+Key of D
+D, E, F#, G, A, B, C#
+D, Em, F#m, G, A, Bm, C#dim
+
+Key of D#
+D#, F, G, G#, A#, C, D
+D#, Fm, Gm, G#, A#, Cm, Ddim
+
+Key of E
+E, F#, G#, A, B, C#, D#
+E, F#m, G#m, A, B, C#min, D#dim
+
+Key of F
+F, G, A, A#, C, D, E
+F, Gm, Am, A#, C, Dm, Edim
+
+Key of G
+G, A, B, C, D, E, F#
+G, Am, Bm, C, D, Em, F#dim
+
+Key of G#
+G#, A#, C, C#, D#, F, G
+G#, A#m, Cm, C#, D#, Fm, Gdim
+
+Key of A
+A, B, C#, D, E, F#, G#
+A, Bm, C#m, D, E, F#m, G#dim
+
+Key of A#
+A#, C, D, D#, F, G, A
+A#, Cm, Dm, D#, F, Gm, A
+
+Key of B
+B, C#, D#, E, F#, G#, A#
+B, C#m, D#m, E, F#, G#m, A#dim
