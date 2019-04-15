@@ -1,0 +1,106 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>The Great Musical Key Finder</title>
+    <meta name="description" content="Find all notes and chords in your favorite musical key.">
+    <meta name="author" content="P. Schreiber">
+<!--GOOGLE FONTS-->
+    <!--<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">-->
+    <link rel="stylesheet" href="css/styles.css">
+<!--BOOTSTRAP-->
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+    <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+<!--FONTAWESOME-->
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">-->
+</head>
+
+<body>
+    
+    <div id="head">
+        <h1>The Great Musical Key Finder</h1>
+        <p>Choose your favourite musical note to find all notes and chords in the key.</p>
+    </div>
+
+    <div class="app">
+
+    <div class="container">
+        
+        <div id="selector">
+            Select the key in which you want to play
+            <div id="radiogroup">
+                <input type="radio" id="C" name="note" value="C" checked>
+                <label for="C">C</label>
+                <!--</div>-->
+                <!--<div class="">-->
+                  <input type="radio" id="D" name="note" value="D">
+                  <label for="D">D</label>
+                <!--</div>-->
+                <!--<div class="">-->
+                  <input type="radio" id="E" name="note" value="E">
+                  <label for="E">E</label>
+                <!--</div>-->
+                <!--<div class="">-->
+                  <input type="radio" id="F" name="note" value="F">
+                  <label for="F">F</label>
+                <!--</div>-->
+                <!--<div class="">-->
+                  <input type="radio" id="G" name="note" value="G">
+                  <label for="G">G</label>
+                <!--</div>-->
+                <!--<div class="">-->
+                  <input type="radio" id="A" name="note" value="A">
+                  <label for="A">A</label>
+                <!--</div>-->
+                <!--<div class="">-->
+                  <input type="radio" id="B" name="note" value="B">
+                  <label for="B">B</label>
+                <!--</div>-->
+            </div>
+        </div>
+        
+        <div id="notes">
+            <h3>Notes in the Key of <span class="key">C</span></h3>
+            <div id="keyNotes">
+                C, D, E, F, G, A, B
+            </div>
+        </div>
+        
+        
+        <div id="chords">
+            <h3>Chords in the Key of <span class="key">C</span></h3>
+            <div class="chord">
+                C
+            </div>
+            <div class="chord">
+                Dm
+            </div>
+            <div class="chord">
+                Em
+            </div>
+            <div class="chord">
+                F
+            </div>
+            <div class="chord">
+                G
+            </div>
+            <div class="chord">
+                Am
+            </div>
+            <div class="chord">
+                Bdim
+            </div>
+        </div>
+    </div>
+
+    </div>
+    
+    <!--SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>-->
+    <script src="js/backup-da-ju.js"></script>
+
+</body>
+</html>
